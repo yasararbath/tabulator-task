@@ -1,0 +1,80 @@
+.disabled-row {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.edit-btn:disabled {
+  background-color: #007bff80;
+  cursor: not-allowed;
+}
+
+.save-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.save-btn:disabled {
+  background-color: #28a74580;
+  cursor: not-allowed;
+}
+
+.undo-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.undo-btn:disabled {
+  background-color: #dc354580;
+  cursor: not-allowed;
+}
+
+.selected-rows,
+.data-rows {
+  margin: 20px 0;
+}
+
+.row {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.disable {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.header-checkbox {
+  cursor: pointer;
+}
